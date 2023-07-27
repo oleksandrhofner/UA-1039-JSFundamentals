@@ -81,10 +81,10 @@ let arr = [
 ];
 
 function sortType(arr) {
-  let newArr = arr;
+  let newArr = arr.flat();
   let numArr = [];
   let strArr = [];
-  // let secArr = newArr[7][0];
+  let allArr = [];
   for (let i = 0; i < newArr.length; i++) {
     if (typeof newArr[i] === "number") {
       numArr.push(newArr[i]);
@@ -92,12 +92,8 @@ function sortType(arr) {
       strArr.push(newArr[i]);
     }
   }
-  // for (let i = 0; i < secArr.length; i++){
-  //   console.log("secArr:", secArr[i]);
-  // }
-
-  let allArr = numArr.concat(strArr);
-  return allArr;
+  numArr.push(strArr);
+  return numArr;
 }
 
 console.log("Task 5:", sortType(arr));
