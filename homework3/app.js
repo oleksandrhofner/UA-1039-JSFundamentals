@@ -67,25 +67,35 @@ console.log("Task 4:", Random(6));
 
 // Task 5
 
-let  arr = [5, "Limit", 12, "a", "3", 99, 2, [2, 4, 3, "33", "a", "text"], "strong", "broun"];
+let arr = [
+  5,
+  "Limit",
+  12,
+  "a",
+  "3",
+  99,
+  2,
+  [2, 4, 3, "33", "a", "text"],
+  "strong",
+  "broun",
+];
 
 function sortType(arr) {
   let newArr = arr;
   let numArr = [];
   let strArr = [];
   // let secArr = newArr[7][0];
-  for (let i =0; i < newArr.length; i++) {
-    if (typeof(newArr[i]) === "number" ) {
+  for (let i = 0; i < newArr.length; i++) {
+    if (typeof newArr[i] === "number") {
       numArr.push(newArr[i]);
-      
-    } else if (typeof(newArr[i]) === "string") {
+    } else if (typeof newArr[i] === "string") {
       strArr.push(newArr[i]);
     }
   }
   // for (let i = 0; i < secArr.length; i++){
   //   console.log("secArr:", secArr[i]);
   // }
- 
+
   let allArr = numArr.concat(strArr);
   return allArr;
 }
@@ -94,17 +104,17 @@ console.log("Task 5:", sortType(arr));
 
 // Task 6
 
-function calc(a,b,op) {
-  switch(op) {
+function calc(a, b, op) {
+  switch (op) {
     case 1:
-      return a-b;
+      return a - b;
     case 2:
-      return a*b;
+      return a * b;
     case 3:
-      return a/b;
+      return a / b;
     default:
-      return a+b;
+      return a + b;
   }
 }
 
-console.log("Task 6:", calc(2,2,3));
+console.log("Task 6:", calc(2, 2, 3));
