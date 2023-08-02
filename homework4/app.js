@@ -51,6 +51,23 @@
 
 // checkAge(userName,userAge,userStatus);
 
+// Task 3
 
+// function calcRectangleArea(width,height) {
+//   try {
+//     if (typeof width && typeof height !== "string") {
+//       return width*height;
+//     } else {
+//       throw new EvalError("Input correct width and height");
+//     }
+//   } catch (error) {
+//     console.log("Error: ", error);
+//   }
+// }
+
+// console.log("Area is:",calcRectangleArea(20,10));
+
+
+// Task 4
 
 
