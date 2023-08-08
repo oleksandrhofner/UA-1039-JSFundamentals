@@ -39,3 +39,18 @@
 // unorderedList.style.display = 'flex';
 // const span = document.querySelector('span');
 // span.style.visibility = 'hidden';
+
+// Task 3
+
+const body = document.querySelector('body');
+const main = document.createElement('main');
+const div = document.createElement('div');
+const p = document.createElement('p');
+main.classList.add = 'mainClass';
+main.classList.add = 'check';
+main.classList.add = 'item';
+div.setAttribute('id','myDiv');
+p.textContent = 'First paragraph';
+body.append(main);
+main.appendChild(div);
+div.appendChild(p);
