@@ -56,3 +56,13 @@
 // link.addEventListener("mouseover", function() {
 //     body.style.backgroundColor = 'yellow';
 // });
+
+// Task 4
+
+// const select = document.querySelector('#names');
+// const btn = document.querySelector('#btn');    
+// select.addEventListener("click", function(select) {
+//     for (const item of select) {
+//         item.remove();
+//     }
+// })
