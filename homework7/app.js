@@ -81,3 +81,12 @@
 // btn.addEventListener('click', function(){
 //     text.textContent += 'I was Pressed!\n';
 // });
+
+// Task 6
+
+// const widthSize = document.querySelector('#text-width');
+// const heightSize = document.querySelector('#text-height');
+// setInterval(function(){
+//     widthSize.textContent = window.innerWidth;
+//     heightSize.textContent = window.innerHeight;
+// },100);
