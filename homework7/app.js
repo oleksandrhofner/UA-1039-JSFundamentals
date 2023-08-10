@@ -66,3 +66,18 @@
 //         item.remove();
 //     }
 // })
+
+// Task 5
+
+// const btn = document.querySelector('#btn');
+// const text = document.querySelector('#text');
+// const htmlPage = document.querySelector('html');
+// htmlPage.addEventListener('click', function() {
+//     text.textContent += 'Mouse is not on me!\n'; 
+// });
+// btn.addEventListener('mouseover', function() {
+//     text.textContent += 'Mouse on me!\n'; 
+// });
+// btn.addEventListener('click', function(){
+//     text.textContent += 'I was Pressed!\n';
+// });
