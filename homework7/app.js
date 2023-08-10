@@ -34,4 +34,25 @@
 //   textParagraph.style.fontFamily = "Comic Sans MS";
 // }
 
+// Task 3
 
+// const btn1 = document.querySelector('#btn1');
+// const btn2 = document.querySelector('#btn2');
+// const btn3 = document.querySelector('#btn3');
+// const link = document.querySelector('#link');
+// const body = document.querySelector('body')
+// btn1.addEventListener("click", function(){
+//     body.style.backgroundColor = 'blue';
+// });
+// btn2.addEventListener("dblclick", function() {
+//     body.style.backgroundColor = 'pink';
+// });
+// btn3.addEventListener("mousedown", function(){
+//     body.style.backgroundColor = 'brown';
+// });
+// btn3.addEventListener("mouseup", function(){
+//     body.style.backgroundColor = 'white';
+// });
+// link.addEventListener("mouseover", function() {
+//     body.style.backgroundColor = 'yellow';
+// });
