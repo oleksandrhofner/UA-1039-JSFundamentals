@@ -9,15 +9,21 @@
 // Task 2
 
 // $(function(){
-//     $("a").on("click",function(){
-//         if ($("a").prop("href") == 'https://www.google.com/') {
-//             $("a").attr("target", "_blank");
-//         }
-//     })
+//     $("a").attr("href^=https://")
 // })
 
 // Task 3
 
 // $(function(){
 //     $("div").prependTo("h3");
+// })
+
+// Task 4
+
+// $(function(){
+//     $("input[type=checkbox]").on("click", function(){
+//         if($(":checkbox:checked").length == 3){
+//             $("input").prop("disabled",true);
+//         }
+//     })        
 // })
