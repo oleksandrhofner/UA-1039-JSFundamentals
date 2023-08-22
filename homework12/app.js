@@ -33,4 +33,21 @@
 //     response.setHeader("Content-Type", "text/html");
 //     response.write(`<p>Date: ${day} ${year}-${month}-${date} ${hours}:${minutes}:${seconds}</p>`);
 //     response.write(`<p>${welcomeUser()}</p>`);
+//     response.end();
 // }).listen(8000);
+
+// Task 3
+
+const http = require("http");
+http.createServer(function(request,response) {
+    const prompt = require("prompt-sync")();
+    const input = prompt("Input your text: ");
+    const fs = require("fs");
+    fs.writeFile("temp.txt",input,(err)=>{
+        if (err) console.log(err);
+        console.log("Successfully written to file");
+    });
+    response.setHeader("Content-Type", "text/html");
+    response.write(`<h1>What user input: ${input}</h2>`);
+}).listen(8000);
+
