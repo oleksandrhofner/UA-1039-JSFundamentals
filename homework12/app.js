@@ -8,6 +8,7 @@
 //     response.write(`<p>OS type: ${os.platform}</p>`);
 //     response.write(`<p>System work time: ${os.uptime}</p>`);
 //     response.write(`<p>Current work directory: ${__dirname}</p>`);
+//     response.write(`<p>server file: ${__filename}</p>`);
 //     response.end();
 // }).listen(5000);
 
