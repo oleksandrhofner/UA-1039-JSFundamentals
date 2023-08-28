@@ -1,5 +1,6 @@
+// Task 1
 async function server() {
-  const url = "./text.txt";
+  const url = "https://jsonplaceholder.typicode.com/users";
   let response = await fetch(url);
   if (response.ok) {
     let btn = document.querySelector(".btn");
@@ -12,5 +13,4 @@ async function server() {
     alert("HTTP-Error: " + response.status);
   }
 }
-
 server();
